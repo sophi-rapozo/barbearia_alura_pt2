@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Produtos</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="produtos.css">
   </head>
   <body>
     <header>
@@ -20,49 +20,34 @@
       </nav>
       </div>
     </header>
-    
-    <main>
-        <form>
-          <label for="nomesobrenome">Nome e sobrenome</label>
-          <input type="text" id="nomesobrenome" class="input-padrao">required placeholder
-  
-          <label for="email">Email</label>
-          <input type="email" id="email" class="input-padrao">required placeholder="seuemail@dominio.com"
-  
-          <label for="telefone">Telefone</label>
-          <input type="tel" id="telefone" class="input-padrao">required placeholder="(XX)XXXXX-XXXX
-  
-          <label for="mensagem">mensagem</label>
-          <textarea cols="70" rows="10" id="mensagem" class="input-padrao">
-          </textarea>
 
-          <fieldset>
-            <p>Como prefere nosso contato?</p>
-            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-          
-            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-
-            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
-          </fieldset>
-
-          <fieldset>
-            <p>Qual horário prefere ser atendido?</p>
-            <select>
-              <option>Manhã</option>
-              <option>Tarde</option>
-              <option>Noite</option>
-            </select>
-          </fieldset>
-          
-          <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidade por email?</label>
-          
-          <input type="submit" value="Enviar formulário">
-        </form>
-      </main>
-
+  <main>
+    <ul class="produtos">
+      <li>
+        <h2>Cabelo</h2>
+        <img src="cabelo.jpg">
+        <p class="produto-descricao">Na tesoura ou máquina</p>
+        <p class="produto-preco">R$ 30,00</p>
+      </li>
+      <li>
+         <h2>Barba</h2>
+        <img src="barba.jpg">
+        <p class="produto-descricao">Corte e desenho profissional</p>
+        <p class="produto-preco">R$ 20,00</p>
+      </li>
+      <li>
+         <h2>Cabelo + Barba</h2>
+        <img src="cabelo+barba.jpg">
+        <p class="produto-descricao">Pacote completo</p>
+        <p class="produto-preco">R$ 45,00</p>
+      </li>
+    </ul>
+  </main>
+<!--add 18/03 -->
   <footer>
     <img src="logo-branco.png">
-    <p class="copyright">&copy; Criado por sophi-rapozo - 2025</p>
+    <p class="copyright">&copy; Criado por Prof Weslly - 2025</p>
   </footer>
+<!--add 18/03 -->
   </body>
 </html>
