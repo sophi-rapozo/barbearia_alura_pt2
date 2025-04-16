@@ -12,7 +12,7 @@
       <h1><img src="logo.png"></h1>
 
       <nav>  
-      <ul>
+     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="produtos.html">Produtos</a></li>
         <li><a href="contato.html">Contato</a></li>
@@ -46,7 +46,7 @@
 <!--add 18/03 -->
   <footer>
     <img src="logo-branco.png">
-    <p class="copyright">&copy; Criado por Prof Weslly - 2025</p>
+    <p class="copyright">&copy; Criado por soph-rapozo - 2025</p>
   </footer>
 <!--add 18/03 -->
   </body>
